@@ -10,18 +10,19 @@ function theBeatlesPlay(musicians, instruments) {
 
 
 function johnLennonFacts(facts) {
-  var list = []
+ var list = []
   var i = 0
    while(i < facts.length) {
      var results = facts[i] + "!!!";
      list.push(results);
      i += 1
-   }
+   } 
    return list
 }   
 
 function iLoveTheBeatles(number) {
   var list = []
+
   var i = parseInt(number)
   do {
   list.push("I love the Beatles!");
